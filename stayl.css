@@ -98,7 +98,6 @@ body {
     height: 3px;
     background-color: #ff7500;
     border: none;
-   
 }
 .hero-heading {
     font-weight: 700;
@@ -127,7 +126,6 @@ body {
     background-color: #fff;
     padding-top: 147px;
     padding-bottom: 210px;
-   
 }
 
 .hero-line {
@@ -148,7 +146,6 @@ body {
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 40px;
-    
 }
 
 .feaures-item {
@@ -212,3 +209,61 @@ body {
     height: 440px;
     margin-top: -149px;
 }
+/* FOOTER START */
+
+.site-footer {
+    background-color: #f8f8f8;
+}
+
+.site-footer-container {
+}
+
+.site-footer-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 56px;
+    padding-bottom: 40px;
+    border-bottom: 2px solid #25242080;
+}
+
+.social {
+    display: flex;
+    gap: 16px;
+}
+
+.fa-brands {
+    color: #252420;
+    transition: all 0.4s ease;
+}
+
+.fa-brands:hover {
+    color: #ff7500;
+}
+
+.site-footer-bottom {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-bottom: 56px;
+    padding: 60px;
+    
+    
+}
+.site-footer-list {
+   display: flex;
+   flex-direction: column;  
+   gap: 16px;
+}
+
+.site-footer-link {
+    color:#252420;
+    line-height: 100%;
+    letter-spacing: 0px;
+    transition: all0 .6s ease;
+    
+}
+.site-footer-link:hover{
+    color: #ff7500;
+}
+
+/* FOOTER END */
